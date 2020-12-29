@@ -1,0 +1,60 @@
+$containerWidth: 940px;
+$baseFontSize: 18px;
+
+// breakpoints//
+$tablets: 768px;
+$phones: 480px;
+
+@import "_media";
+@import "_layout";
+
+// colors//
+$blue: #61c4d9;
+$darkGreen: #0b4d3c;
+$z-fixed-menu:100;
+
+
+// normalize//
+@import "http://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css";
+
+// setups //
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,700;1,300;1,400&display=swap');
+
+
+// components //
+
+@import "_hero";
+@import "_header";
+@import "_hamburger";
+@import "_menu";
+@import "_features";
+@import "_feature";
+@import "_btn";
+@import "_section";
+@import "_headline";
+@import "_benefits";
+@import "_benefit";
+@import "_benefits-section";
+@import "_section__slide-section";
+@import "team-section";
+@import "_reviews";
+@import "_reviews-section";
+@import "_interactive-avatar";
+@import "_order-section";
+@import "_form";
+@import "_radio";
+@import "_section-map";
+@import "_footer";
+@import "_contacts";
+@import "_fixed-menu";
+@import "_overlay";
+
+
+
+
+
+
+
+
+
+

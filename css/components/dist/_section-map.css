@@ -1,0 +1,54 @@
+.section-map {
+  background: url("../../images/icons/map.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer {
+  display: flex;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer__icons {
+  display: flex;
+  flex-direction: row;
+  margin-right: rem(14px);
+  margin-top: rem(20px);
+  justify-content: flex-end;
+}
+
+.footer__icons-item {
+  display: block;
+  top: rem(38px);
+  margin-right: rem(14px);
+  width: rem(20px);
+  height: rem(20px);
+}
+.footer__icons-item:last-child {
+  margin-right: 0;
+}
+
+.footer__text {
+  display: flex;
+  flex-direction: column;
+  max-width: rem(415px);
+  margin-right: rem(300px);
+}
+
+.footer__text-title {
+  margin-left: rem(86px);
+  margin-top: rem(3px);
+  margin-bottom: 0;
+  font-size: rem(21px);
+  color: #292929;
+}
+
+.number__under {
+  margin-left: rem(90px);
+  margin-top: rem(0px);
+  padding-top: rem(0px);
+}

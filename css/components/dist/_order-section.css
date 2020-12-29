@@ -1,0 +1,21 @@
+.section.order-section {
+  background: url("../../images/fon02.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container_bar {
+  position: relative;
+}
+.container_bar::before {
+  content: url("/images/icons/bar2.svg");
+  position: absolute;
+  top: 100%;
+  left: -4%;
+}
+.container_bar::after {
+  content: url("/images/icons/leaf6.svg");
+  position: absolute;
+  top: 80%;
+  left: 90%;
+}

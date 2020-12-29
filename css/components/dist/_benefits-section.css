@@ -1,0 +1,10 @@
+.benefits-section {
+  position: relative;
+  background: url("../../images/icons/leaf2.svg") left top 40% no-repeat;
+}
+.benefits-section::before {
+  content: url("../../images/icons/mal.svg");
+  position: absolute;
+  left: -1%;
+  top: 65%;
+}

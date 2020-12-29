@@ -1,0 +1,29 @@
+.section.order-section{
+  background: url("../../images/fon02.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.container_bar{
+  position: relative;
+
+&::before{
+  content: url("/images/icons/bar2.svg");
+  position: absolute;
+  top: 100%;
+  left: 2%;
+
+}
+&::after{
+  content: url("/images/icons/leaf6.svg");
+  position: absolute;
+  top: 80%;
+  left: 85%;
+
+}
+&::before, &::after {
+  @include tablets{
+    display: none;
+  }
+}
+}

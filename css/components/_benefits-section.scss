@@ -1,0 +1,22 @@
+.benefits-section{
+  position: relative;
+  background: url("../../images/icons/leaf2.svg") left top 40% no-repeat;
+
+  
+  @include phones {
+    background: none;
+    
+  }
+
+
+  &::before{
+    content: url("../../images/icons/mal.svg");
+    position: absolute;
+    left: -1%;
+    top: 70%;
+
+  @include phones {
+    display: none;
+  }
+  }
+}

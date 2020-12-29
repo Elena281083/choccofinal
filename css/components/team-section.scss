@@ -1,0 +1,46 @@
+.team__item{
+  flex: 1;
+  text-align: center;
+  margin-right: 20px;
+max-width: 14.44444rem;
+position: relative;
+}
+.team{
+  display: flex;
+  justify-content: space-between;
+}
+.team--version--desktop .team__content{
+  position: absolute;
+  top: 100%;
+}
+.team__content{
+  overflow: hidden;
+  transition: height .3s;
+  height: rem(100px);
+}
+.team__title{
+  color: #000;
+  display: inline-flex;
+  font-weight: bold;
+  font-size: rem(21px);
+  align-items: center;
+  border: none;
+  background: none;
+
+}
+.team__member{
+  padding-bottom: rem(21px);
+}
+.team--version--mobile{
+  display: none;
+}
+.team__content-block{
+  font-size: rem(18px);
+  line-height: rem(21px);
+  font-weight: 300;
+}
+.team__title--item{
+  margin: 0;
+  font-weight: 500;
+  font-size: rem(18px);
+}

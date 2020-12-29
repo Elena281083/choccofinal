@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.phone-number {
+  display: flex;
+  align-items: center;
+  // justify-content: space-between;
+}
+
+.phone-number.header__phone-number {
+  @include tablets {
+    display: none;
+  }
+  @include phones {
+    display: none;
+}
+}
+
+.phone-number__icon {
+  width: 24px;
+  height: 24px;
+  fill: white;
+  margin-right: 10px;
+}

@@ -1,0 +1,46 @@
+.fixed-menu{
+  position: fixed;
+  top: 20%;
+  right: 4%;
+  
+
+  @include tablets {
+    display: none;
+  }
+  @include phones {
+    display: none;
+  }
+}
+.fixed-menu__item{
+margin-bottom: rem(5px);
+position: relative;
+
+&--active{
+  .fixed-menu__link{
+    border-color: #ffffff;
+  }
+
+}
+}
+.fixed-menu__link{
+  width: rem(16px);
+  height: rem(16px);
+  border: rem(1px) solid transparent;
+  border-radius: 50%;
+  display: block;
+
+  &:before{
+    content: "";
+    display: block;
+    width: rem(6px);
+    height: rem(6px);
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    background: #ffffff;
+  }
+
+
+}

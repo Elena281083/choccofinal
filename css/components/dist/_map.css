@@ -1,0 +1,54 @@
+.section-map {
+  background: url("../../images/icons/map.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer {
+  display: flex;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer__icons {
+  display: flex;
+  flex-direction: row;
+  margin-right: 14px;
+  margin-top: 20px;
+  justify-content: flex-end;
+}
+
+.footer__icons-item {
+  display: block;
+  top: 38px;
+  margin-right: 14px;
+  width: 20px;
+  height: 20px;
+}
+.footer__icons-item:last-child {
+  margin-right: 0;
+}
+
+.footer__text {
+  display: flex;
+  flex-direction: column;
+  max-width: 390px;
+  margin-right: 300px;
+}
+
+h3 {
+  margin-left: 86px;
+  margin-top: 3px;
+  margin-bottom: 0;
+  font-size: 21px;
+  color: #292929;
+}
+
+.number__under {
+  margin-left: 70px;
+  margin-top: 0px;
+  padding-top: 0px;
+}

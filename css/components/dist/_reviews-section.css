@@ -1,0 +1,16 @@
+.section.reviews-section {
+  background: url("../../images/icons/bar1.svg") right 10% top 15% no-repeat;
+  position: relative;
+}
+.section.reviews-section:before {
+  content: url("/images/icons/leaf4.svg");
+  position: absolute;
+  top: 82%;
+  left: -1%;
+  background-repeat: no-repeat;
+}
+.section.reviews-section:after {
+  content: url("/images/icons/bar3.svg");
+  position: absolute;
+  top: 90%;
+}
